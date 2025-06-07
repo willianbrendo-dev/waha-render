@@ -1,0 +1,9 @@
+services:
+  - type: web
+    name: waha
+    env: docker
+    plan: starter
+    dockerfilePath: ./Dockerfile
+    autoDeploy: false
+    envFilePath: .env
+    port: 8000

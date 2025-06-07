@@ -1,0 +1,1 @@
+FROM waha/waha:latest
